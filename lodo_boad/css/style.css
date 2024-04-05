@@ -1,0 +1,31 @@
+.main_box{
+    height: 592px; ;
+    width: 592px;
+    border: solid 3px ;
+    margin: auto;
+}
+.row{
+    height: 70px;
+    width: 576px;
+    border: solid 1px;
+    background-color: bisque;
+    
+}
+.white{
+    height: 70px;
+    width: 70px;
+    border: solid 1px ;
+    background-color: white;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
+.black{
+    height: 70px;
+    width: 70px;
+    border: solid 1px ;
+    background-color: rgba(46, 44, 44, 0.582);
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
