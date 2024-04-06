@@ -1,0 +1,28 @@
+.main_border{
+    height: 940px;
+    width: 940px;
+    border: solid 1px ;
+    margin: auto;
+}
+.inline{
+    background-color: antiquewhite;
+    width: 940px;
+    height: 60px; 
+    border: solid 1px ;
+
+}
+.center{
+    
+    margin: auto;
+    float: left;
+}
+.box{
+    height: 60px;
+    width: 60px;   
+}
+.boredr{
+    border: solid 1px;
+}
+.margen{
+    margin-left:  11px;
+}
