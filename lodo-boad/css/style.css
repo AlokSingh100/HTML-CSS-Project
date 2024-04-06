@@ -1,14 +1,14 @@
 .main_border{
     height: 940px;
     width: 940px;
-    border: solid 1px ;
+    border: solid 1px white ;
     margin: auto;
 }
 .inline{
-    background-color: antiquewhite;
+    background-color:white;
     width: 940px;
     height: 60px; 
-    border: solid 1px ;
+    border: solid 1px antiquewhite ;
 
 }
 .center{
@@ -24,5 +24,44 @@
     border: solid 1px;
 }
 .margen{
-    margin-left:  11px;
+    margin-left:  2px;
+}
+.margen_1{
+    margin-left:2px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: cyan;
+}
+.green{
+    background-color: green;
+}
+.red_1{
+    background-color: rgb(210, 74, 74);
+    font-size: 50px;
+    text-align: center;
+}
+.green_1{
+    background-color: rgb(74, 210, 74);
+    font-size: 50px;
+    text-align: center;
+}
+.yellow_1{
+    background-color: rgb(210, 210, 74);
+    font-size: 50px;
+    text-align: center;
+}
+.blue_1{
+    background-color: rgb(74, 74, 210);
+    font-size: 50px;
+    text-align: center;
+}
+.icon{
+    text-align: center;
+    font-size: 50px;
 }
