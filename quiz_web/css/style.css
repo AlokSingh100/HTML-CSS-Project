@@ -4,31 +4,47 @@ header{
     height: 70px ;
     border: solid 1px rgb(255, 255, 255); ;
     background-color: rgba(222, 219, 219, 0.696);
+    display: flex ;
+    justify-content: space-between;
+    
 }
 .navication{
-list-style: none ;
+    display: flex ;
+    list-style: none ;  
+}
 
+.navication a{
+    text-decoration: none;
 }
 .nav_list{
-    float: right;
+    /* float: right; */
     margin-right: 20px;
     padding-top: 5px;
     text-decoration:none;
 }
 .logo{
-    float:left;
+    /* float:left; */
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    
     padding-top: 10px;
     padding-left: 20px;
+}
+.flex{
+     align-items: center;
+    justify-content: center;
+    display: flex; 
 }
 .logo_name{
     padding-left: 5px;
     font-size: 30px;
     font-weight: bold;
+    color:#6ba8ff;
+     /* align-items: center;
+    justify-content: center;
+    display: flex;  */
 }
 .contant{
-    height: 500px;
+    height: 380px;
     margin:auto;
     width: 85%;
     border: solid 1px;
@@ -53,7 +69,21 @@ list-style: none ;
     top: 40px;
 }
 .h_main{
-    font-size: 30px;
-    font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 20px;  
+}
+
+.p_main{
+    font-size: 60px;
+    color: #6ba8ff;
     margin-bottom: 20px;
+    text-align: justify;
+}
+
+.btn{
+    height: 30px;
+    width: 10%;
+    background-color:#6ba8ff;
+    border: 2px solid #6ba8ff;
+    border-radius: 20px;
 }
