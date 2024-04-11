@@ -48,20 +48,16 @@ header{
     display: flex ; 
 }
 .main{
-    padding-left: 483px;
-    font-size: 30px;
+    text-align: center;
+    height: 10PX;
     color: #6ba8ff;
+    border: solid 1px rgb(255, 255, 255);
 }
-.products{
-    height: 321px;
-    width: 215px;
-    border: solid 1px;
-    float: left;
-    position: absolute;
-    top: 178px;
-    left: 144px;
-    padding: 10px;
-}
+
+/* text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+margin-right: 30px; */
 
 .product_img{
     padding-left: 44px;
@@ -75,10 +71,11 @@ header{
     border: solid 1px;
     background-color: #6ba8ff;
     font-size: 15px;
-    position: absolute;
+    
     top: 300px;
     left: 128px;
 }
+
 
 .btn_left{
     height: 29px;
@@ -86,21 +83,57 @@ header{
     border: solid 1px;
     background-color: #6ba8ff;
     font-size: 15px;
-    position: absolute;
+    
     top: 300px;
     left: 18px;
     float: left;
 }
-.products_1{
+.products{
+    height: 321px;
+    width: 215px;
+    border: solid 1px;
+    float: left;
+    margin-top: 110px;
+    
+    
+}
+    /* .pro0{
+        position: absolute;
+        top: 178px;
+        left: 166px;
+        padding: 10px;
+    }  */
+/* .products_1{
     height: 321px;
     width: 215px;
     border: solid 1px;
     float: left;
     
-}
-.pro1{
+} */
+/* .pro1{
     position: absolute;
     top: 178px;
-    left: 438px;
+    left: 452px;
     padding: 10px;
 }
+.pro2{
+    position: absolute;
+    top: 178px;
+    left: 733px;
+    padding: 10px; 
+}*/         
+ /* .product{
+    width: 300px;
+    float: left;
+    margin: 5px;
+    border: solid 1px rgb(255, 128, 0);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(236, 186, 121);
+} */ 
+/* h1{
+    margin: auto;
+    text-align: center;
+   
+} */
