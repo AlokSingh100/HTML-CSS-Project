@@ -48,12 +48,59 @@ header{
     display: flex ; 
 }
 .main{
-    text-align: center;
+    padding-left: 483px;
     font-size: 30px;
     color: #6ba8ff;
 }
 .products{
-    height: 70px;
-    width: 90px;
+    height: 321px;
+    width: 215px;
     border: solid 1px;
+    float: left;
+    position: absolute;
+    top: 178px;
+    left: 144px;
+    padding: 10px;
+}
+
+.product_img{
+    padding-left: 44px;
+}
+.product_text{
+    text-align: center;
+}
+.btn_right{ 
+    height: 29px;
+    width: 76px;
+    border: solid 1px;
+    background-color: #6ba8ff;
+    font-size: 15px;
+    position: absolute;
+    top: 300px;
+    left: 128px;
+}
+
+.btn_left{
+    height: 29px;
+    width: 76px;
+    border: solid 1px;
+    background-color: #6ba8ff;
+    font-size: 15px;
+    position: absolute;
+    top: 300px;
+    left: 18px;
+    float: left;
+}
+.products_1{
+    height: 321px;
+    width: 215px;
+    border: solid 1px;
+    float: left;
+    
+}
+.pro1{
+    position: absolute;
+    top: 178px;
+    left: 438px;
+    padding: 10px;
 }
