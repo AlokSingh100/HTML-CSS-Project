@@ -1,0 +1,66 @@
+header{
+    width: 85%;
+    margin: auto;
+    height: 70px ;
+    border: solid 1px rgb(255, 255, 255); ;
+    background-color: rgba(222, 219, 219, 0.696);
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.navication{
+    display: flex ;
+    list-style: none ;  
+}
+
+.navication a{
+    text-decoration: none;
+}
+.nav_list{
+    margin-right: 20px;
+    padding-top: 5px;
+    text-decoration:none;
+}
+.logo{
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.flex{
+     align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+.logo_name{
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#6ba8ff;  
+}
+/*nav ends  here*/
+.contact_us{
+    height: 446px;
+    width: 1170px;
+    border: solid 1px;
+    margin: auto;
+}
+.map{
+    height: 446px;
+    width: 679px;
+    border: solid 1px;
+    float: left;       
+}
+.contact_inf{
+    height: 446px;
+    width: 487px;
+    float: left;
+    border: solid 1px;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+}
+.form_section{
+    
+}
