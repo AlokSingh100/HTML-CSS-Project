@@ -1,0 +1,131 @@
+header{
+    width: 85%;
+    margin: auto;
+    height: 70px ;
+    border: solid 1px rgb(255, 255, 255); ;
+    background-color: rgba(222, 219, 219, 0.696);
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.navication{
+    display: flex ;
+    list-style: none ;  
+}
+
+.navication a{
+    text-decoration: none;
+}
+.nav_list{
+    /* float: right; */
+    margin-right: 20px;
+    padding-top: 5px;
+    text-decoration:none;
+}
+.logo{
+    /* float:left; */
+    padding-bottom: 10px;
+    
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.flex{
+     align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+.logo_name{
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#6ba8ff;
+     /* align-items: center;
+    justify-content: center;
+    display: flex;  */
+}
+/* Right shid lmage  */
+.contant{
+    height: 380px;
+    margin:auto;
+    width: 85%;
+    /* border: solid 1px; */
+}
+
+.main_border{
+    float: left;
+    margin: auto;
+  margin-left: 70px;
+}
+.main_img{
+    
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.heading_main{
+    float: left;
+    width: 443px;
+    height: auto;
+    text-align: justify;
+    position: relative;
+    left: 117px;
+    top: 40px;
+    
+}
+.h_main{
+        font-size: 25px;
+        margin-bottom: 20px;  
+}
+.ha_main{
+    font-size: 20px;
+
+}
+.p_main{
+    font-size: 27px;
+    color: #6ba8ff;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.btn{
+    height: 32px;
+    width: 25%;
+    background-color:#6ba8ff;
+    border: 2px solid #6ba8ff;
+    border-radius: 20px;
+
+}
+.center {
+    margin: auto;
+    float: left;
+    margin-left: 157px;
+}
+/* left section image */
+.contant_right{
+    height: 380px;
+    margin:auto;
+    width: 85%;
+    /* border: solid 1px; */
+}
+
+.heading_main_righr{
+    float: left;
+    width: 456px;
+    height: 294px;
+    margin: auto;
+    margin-left: 72px;
+    /* border: solid 1px; */
+    text-align: -webkit-left;
+    position: relative;
+    left: 18px;
+    top: 36px;
+}
+
+.main_border_righrt{
+    float: left;
+    width: 340px;
+    height: 318px;
+    margin-left: 125px;
+    /* border: solid 1px; */
+    margin-top: 31px;
+
+}
